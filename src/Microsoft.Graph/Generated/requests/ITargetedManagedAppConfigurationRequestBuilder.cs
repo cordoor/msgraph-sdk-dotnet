@@ -60,7 +60,7 @@ namespace Microsoft.Graph
         /// Gets the request builder for TargetedManagedAppConfigurationTargetApps.
         /// </summary>
         /// <returns>The <see cref="ITargetedManagedAppConfigurationTargetAppsRequestBuilder"/>.</returns>
-        ITargetedManagedAppConfigurationTargetAppsRequestBuilder TargetApps(
+        new ITargetedManagedAppConfigurationTargetAppsRequestBuilder TargetApps(
             IEnumerable<ManagedMobileApp> apps = null);
     
     }

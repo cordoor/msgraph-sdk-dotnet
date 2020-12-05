@@ -35,7 +35,7 @@ namespace Microsoft.Graph
         /// Gets the request builder for ManagedAppProtectionTargetApps.
         /// </summary>
         /// <returns>The <see cref="IManagedAppProtectionTargetAppsRequestBuilder"/>.</returns>
-        IManagedAppProtectionTargetAppsRequestBuilder TargetApps(
+        new IManagedAppProtectionTargetAppsRequestBuilder TargetApps(
             IEnumerable<ManagedMobileApp> apps = null);
     
     }
